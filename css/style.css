@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-color: grey;
+  font-size: 62.5%;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+}
+.slider_wrapper {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.slides_container {
+  height: calc(100vh - 2rem);
+  width: 100%;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+ 
+.slide {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
